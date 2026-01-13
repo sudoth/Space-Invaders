@@ -2,7 +2,7 @@ import pygame
 from gun import Gun, Bullet
 from func import create_army, lose_screen
 from stats import Score, Statistics
-from enemys import Enemy
+from enemies import Enemy
 from globals import width, height, fps
 
 

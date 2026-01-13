@@ -4,11 +4,9 @@ Space Invaders - классическая аркадная игра в жанр�
 Для запуска игры введите в терминал следующие команды:
 ```
 git clone https://github.com/Ivans-sudo/Space-invaders.git
-sudo apt install python3
-sudo apt install python3-pygame
 cd Space-invaders
-git checkout dev
-python3 run.py
+uv sync
+uv run run.py
 ```
 # Как Играть:
 - __Управление__

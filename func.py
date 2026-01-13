@@ -1,5 +1,5 @@
 import pygame
-from enemys import Enemy
+from enemies import Enemy
 
 def create_army(screen, enemys_y, number_of_enemys_x, number_of_enemys_y):
     enemy = Enemy(screen, 1, 0, 0)
